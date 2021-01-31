@@ -7,7 +7,6 @@ from PyQt5.QtGui import QColor, QFont, QPalette
 from SystemInfoThread import SystemInfoThread
 from threads_one import Worker, BigWorkThread
 import re
-import requests
 
 class query_window(QtWidgets.QMainWindow):
     def __init__(self):
