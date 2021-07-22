@@ -13,7 +13,7 @@ class query_window(QtWidgets.QMainWindow):
         QtWidgets.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
 
-        # 控制显示实时网速和内存使用信息
+        # 控制显示实时网速和内存使用信息1
         sys_info_thread = SystemInfoThread(self.ui)
         sys_info_thread.start()
 
